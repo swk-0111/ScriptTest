@@ -11,7 +11,7 @@ public class Boss
     {
         this.mp -= point;
 
-        if (mp > 0)
+        if (mp >= 0)
         {
             Debug.Log("魔法攻撃をした。残りMPは" + mp);
         }
